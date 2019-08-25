@@ -6,14 +6,14 @@
     </head>
 <body>
 <form action="search.jsp" method="get">
-    <label>Szukane słowo: <input type="text" name="query"/></label>
-    <label>Strona nr: <input type="text" name="page"/></label>
+    <label>Szukane słowo: <input type="text" name="query"/></label><br/>
+    <label>Strona nr: <input type="text" name="page"/></label><br/>
     <label>Sortowanie:
     <select name="sort">
         <option value="asc">rosnąco</option>
         <option value="desc">malejąco</option>
     </select>
-    </label>
+    </label><br/>
     <input type="submit" value="Wyślij"/>
 </form>
 </body>
